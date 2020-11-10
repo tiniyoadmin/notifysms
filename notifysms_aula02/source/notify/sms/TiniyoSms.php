@@ -8,7 +8,7 @@
 
 namespace Source\Notify\SMS;
 
-class TiniyoSMS {
+class TiniyoSms {
 
     private $urlService;
     private $endPoint;
