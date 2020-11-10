@@ -8,7 +8,7 @@
 
 namespace Source\Notify\SMS;
 
-class DirectCall {
+class TiniyoSMS {
 
     private $urlService;
     private $endPoint;
