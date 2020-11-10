@@ -11,7 +11,7 @@ namespace Source\Models;
 use CRUD\Create;
 use CRUD\Read;
 use CRUD\Update;
-use Source\Notify\SMS\DirectCall;
+use Source\Notify\SMS\DirectCall; //for sms through tiniyo, Use Source\Notify\SMS\TiniyoSms;
 
 class User
 {
