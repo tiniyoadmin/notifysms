@@ -20,9 +20,12 @@ require_once __DIR__ . '/source/crud/Update.php';
 
 require_once __DIR__ . '/source/models/User.php';
 
+//You can send sms through tiniyo just signup on tiniyo, get your auth_id as CLIENT_ID and auth_secret as CLIENT_SECRET
+//CALLBACK_URL is needed if you want to receive delivery report
 define('CONFIG_SMS', [
     'CLIENT_ID' => '',
     'CLIENT_SECRET' => '',
+    'CALLBACK_URL' => '',
     'GUHWEB' => ''
 ]);
 
